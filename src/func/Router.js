@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes,Route } from "react-router-dom";
+import { Routes,Route } from "react-router-dom";
 import { First } from "../components/fisrt";
 import { Home } from "../components/home";
 import PropTypes from 'prop-types';

@@ -15,7 +15,7 @@ export function First(){
     if(page === 0){
         return(
             <div className='background__schoole'>
-                <div className="background__schoole__title">HELLO...</div>
+                <div className="background__schoole__title"><span>H</span><span>E</span><span>L</span><span>L</span><span>O</span><span>!</span></div>
                 <button className='btn btn-next' onClick={()=>changePage(page+1)}>Next</button>
             </div>
         )
