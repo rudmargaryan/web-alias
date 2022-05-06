@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { clearFirstVisit } from '../../func/isFirstVisit'
 import './index.scss'
 
