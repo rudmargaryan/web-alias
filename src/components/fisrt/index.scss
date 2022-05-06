@@ -1,0 +1,57 @@
+@import '../../assets/normalize/variables.scss';
+@keyframes topAnimate{
+    0%{
+        top: -400px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+@keyframes showedAnimate{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.background__schoole{
+    background-color: $norm;
+    width: 100%;
+    height: 100vh;
+    color: $norm3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 24px;
+        position: relative;
+        transition: ease-in;
+        animation: topAnimate 0.6s linear;
+    }
+    .btn-next{
+        border: 1px solid #EA5455;
+        border-radius: 4px;
+        color: #EA5455;
+        margin-top: 10px;
+        transition: 0.3s;
+        font-size: 20px;
+        &:hover{
+            background-color: #EA5455;
+            color: #fff;
+        }
+    }
+    .btn-back{
+        border: 1px solid #F07B3F;
+        border-radius: 4px;
+        color: #F07B3F;
+        margin-top: 10px;
+        transition: 0.3s;
+        font-size: 20px;
+        &:hover{
+            background-color: #F07B3F;
+            color: #fff;
+        }
+    } 
+}
